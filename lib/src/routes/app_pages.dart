@@ -1,4 +1,6 @@
 import 'package:florist_app/src/modules/landing/view/landing_view.dart';
+import 'package:florist_app/src/modules/sign_up/%20view/sign_up_view.dart';
+import 'package:florist_app/src/modules/sign_up/binding/sign_up_binding.dart';
 import 'package:get/get.dart';
 import '../modules/sign_in/binding/sign_in_binding.dart';
 import '../modules/sign_in/view/sign_in_view.dart';
@@ -21,6 +23,11 @@ class AppPages {
       name: _Paths.signIn,
       page: () => SignInView(),
       binding: SignInBinding(),
+    ),
+    GetPage(
+      name: _Paths.signUp,
+      page: () => SignUpView(),
+      binding: SignUpBinding(),
     ),
     GetPage(
         name: _Paths.landing,
