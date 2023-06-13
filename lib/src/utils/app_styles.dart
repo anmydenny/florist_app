@@ -52,7 +52,7 @@ class AppTextStyles {
   );
 
   static const tfPlaceHolder = TextStyle(
-    color: AppColors.btnYellow,
+    color: AppColors.btnBgColor,
     fontSize: AppFontSizes.large,
     fontWeight: FontWeight.w600,
     fontFamily: AppFontFamily.primary,
@@ -149,28 +149,28 @@ class AppTextStyles {
   );
 
   static const p1 = TextStyle(
-    color: AppColors.btnYellow,
+    color: AppColors.btnBgColor,
     fontSize: AppFontSizes.large,
     fontWeight: FontWeight.w500,
     fontFamily: AppFontFamily.primary,
   );
 
   static const p2 = TextStyle(
-    color: AppColors.black,
+    color: AppColors.blueGrey,
     fontSize: AppFontSizes.large,
     fontWeight: FontWeight.w400,
     fontFamily: AppFontFamily.primary,
   );
 
   static const p3 = TextStyle(
-    color: AppColors.grey,
+    color: AppColors.black,
     fontSize: AppFontSizes.large,
     fontWeight: FontWeight.w400,
     fontFamily: AppFontFamily.primary,
   );
 
   static const p4 = TextStyle(
-      color: AppColors.btnYellow,
+      color: AppColors.btnBgColor,
       fontSize: AppFontSizes.large,
       fontFamily: AppFontFamily.primary,
       fontWeight: FontWeight.w400);
@@ -194,10 +194,11 @@ class AppColors {
   static const white = Colors.white;
   static const black = Colors.black;
   static const red = Colors.red;
-  static const btnYellow = Color.fromRGBO(205,176,66, 1);
+  static const btnBgColor = Color(0xFF9682B6);
   static const cardAllSales = Color.fromRGBO(231,202,98, 1);
   static const grey = Color.fromRGBO(144,144,144, 1);
   static const darkGrey = Color(0xFF222222);
+  static const blueGrey = Color.fromRGBO(149, 154, 177, 1);
   static const inputFill = Color(0xFF0A0A0C);
   static const  greyShade= Color.fromRGBO(247,247,245, 1);
   static const  bottomBarGreyShade = Color.fromRGBO(93,93,97, 1);

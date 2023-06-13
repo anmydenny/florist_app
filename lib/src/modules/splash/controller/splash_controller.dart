@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-
 import '../../../routes/app_pages.dart';
 
 class SplashController extends GetxController {
@@ -17,7 +16,7 @@ class SplashController extends GetxController {
       // if ((await _repository.getToken()).isNotEmpty) {
       //   Get.offAllNamed(Routes.landing);
       // } else {
-      // Get.offAllNamed(Routes.login);
+      Get.offAllNamed(Routes.signIn);
       // }
     });
   }

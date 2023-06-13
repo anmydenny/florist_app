@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import '../../../widgets/app_logo.dart';
 import '../controller/splash_controller.dart';
 
 class SplashView extends GetView<SplashController> {
@@ -7,8 +8,6 @@ class SplashView extends GetView<SplashController> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Image.asset("assets/images/splash.png",fit: BoxFit.fill,height: double.infinity,),
-    );
+    return const AppLogo();
   }
 }
