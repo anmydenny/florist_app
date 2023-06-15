@@ -1,7 +1,9 @@
+import 'package:florist_app/src/modules/forgot_password/view/forgot_view.dart';
 import 'package:florist_app/src/modules/landing/view/landing_view.dart';
 import 'package:florist_app/src/modules/sign_up/%20view/sign_up_view.dart';
 import 'package:florist_app/src/modules/sign_up/binding/sign_up_binding.dart';
 import 'package:get/get.dart';
+import '../modules/forgot_password/binding/forgot_password_binding.dart';
 import '../modules/sign_in/binding/sign_in_binding.dart';
 import '../modules/sign_in/view/sign_in_view.dart';
 import '../modules/splash/binding/splash_binding.dart';
@@ -28,6 +30,11 @@ class AppPages {
       name: _Paths.signUp,
       page: () => SignUpView(),
       binding: SignUpBinding(),
+    ),
+    GetPage(
+      name: _Paths.forgotPassword,
+      page: () => ForgotPasswordView(),
+      binding: ForgotPasswordBinding(),
     ),
     GetPage(
         name: _Paths.landing,
