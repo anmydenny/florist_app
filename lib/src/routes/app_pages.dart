@@ -4,6 +4,8 @@ import 'package:florist_app/src/modules/sign_up/%20view/sign_up_view.dart';
 import 'package:florist_app/src/modules/sign_up/binding/sign_up_binding.dart';
 import 'package:get/get.dart';
 import '../modules/forgot_password/binding/forgot_password_binding.dart';
+import '../modules/home/binding/home_binding.dart';
+import '../modules/landing/binding/landing_binding.dart';
 import '../modules/sign_in/binding/sign_in_binding.dart';
 import '../modules/sign_in/view/sign_in_view.dart';
 import '../modules/splash/binding/splash_binding.dart';
@@ -38,8 +40,8 @@ class AppPages {
     ),
     GetPage(
         name: _Paths.landing,
-        page: () => const LandingView(),
-        // bindings: [LandingBinding()]
+        page: () => LandingView(),
+        bindings: [LandingBinding(),HomeBinding()]
     ),
   ];
 }

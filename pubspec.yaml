@@ -27,6 +27,10 @@ dependencies:
   #image
   cached_network_image: ^3.2.3
   flutter_svg: ^1.1.6
+  #chat
+  grouped_list: ^5.1.2
+  #date format
+  intl: ^0.18.1
 
 
 dev_dependencies:
